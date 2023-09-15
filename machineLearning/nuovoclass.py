@@ -19,7 +19,7 @@ from PIL import Image
 import pydot
 from sklearn import tree
 
-data = pd.read_csv('C:\\Users\\marco\\Documents\\GitHub\\thesis-images\\scripts\\\classificator\\train_Dataset.csv')
+data = pd.read_csv('C:\\Users\\marco\\Documents\\GitHub\\thesis-images\\scripts\\\classificator\\trainDataset.csv')
 
 #I need to get data from moreIP.csv and concat it to the train_Dataset.csv
 #but I need to drop column ip and add column classification
